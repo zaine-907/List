@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>To-Do list
+                <img src="https://media.istockphoto.com/id/1458673546/photo/clipboard-with-checklist-icon-on-pink-background-check-marks-on-paper-planning-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=ttVC_NUMVqPEO-i2CwErRCAkrX8uX1xMiBt7GrX-d_E="width="50px" height="40px" >
+            </h1>
+            <div class="row">
+                <input type="text" placeholder="Add your task" id="input-box">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- Tasks will be appended here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Corrected script tag -->
+</body>
+</html>
